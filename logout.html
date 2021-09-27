@@ -12,12 +12,12 @@
     if (x != "authorized=true") {
       window.location.replace("https://turtle84375.tk");
     } else {
+    document.getElementById("text").innerHTML = "Logging out...";
     document.cookie = "authorized=; expires=Mon, 01 Jan 2000 12:00:00 UTC";
     document.getElementById("text").innerHTML = "Logged out!";
     };
   </script>
   <center>
-    <h2>Logging out...</h2>
     <h2 id="text"></h2>
   </center>
 </body>
