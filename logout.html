@@ -6,8 +6,13 @@
       type="image/ico" 
       href="https://raw.githubusercontent.com/TurtleCoding84/TurtleGov-Data-Center/main/assets/global/favicon.ico">
     <script>
-       document.cookie = "authorized=; expires=Mon, 01 Jan 2000 12:00:00 UTC";
-       window.location.replace("https://turtle84375.tk/landing");
+    var x = document.cookie;
+    if (x != "authorized=true") {
+      window.location.replace("https://turtle84375.tk");
+    } else {
+    document.cookie = "authorized=; expires=Mon, 01 Jan 2000 12:00:00 UTC";
+    window.location.replace("https://turtle84375.tk/landing");
+    };
     </script>
 </head>
 <body>
