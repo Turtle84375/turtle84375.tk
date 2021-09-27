@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Logging out...</title>
+    <title>Logout - Turtle84375</title>
     <link rel="icon" 
       type="image/ico" 
-      href="https://raw.githubusercontent.com/TurtleCoding84/TurtleGov-Data-Center/main/assets/global/favicon.ico">
+      href="assets/favicon.ico">
     <script>
     var x = document.cookie;
     if (x != "authorized=true") {
       window.location.replace("https://turtle84375.tk");
     } else {
     document.cookie = "authorized=; expires=Mon, 01 Jan 2000 12:00:00 UTC";
-    window.location.replace("https://turtle84375.tk/landing");
+    document.getElementById("text").innerHTML = "Logged out!";
     };
     </script>
 </head>
 <body>
   <center>
     <h2>Logging out...</h2>
+    <h2 id="text"></h2>
   </center>
 </body>
 </html>
