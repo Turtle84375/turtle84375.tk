@@ -5,8 +5,14 @@
     <link rel="icon" 
       type="image/ico" 
       href="assets/favicon.ico">
-    <script>
+    <--<script>
         window.location.replace("https://turtle84375.tk/access_denied");
+    </script>-->
+    <script>
+      var x = document.cookie;
+      if (x != "authorized=true") {
+        window.location.replace("https://turtle84375.tk/access_denied");
+      };
     </script>
 </head>
 <body>
