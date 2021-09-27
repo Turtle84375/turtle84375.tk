@@ -8,10 +8,10 @@ return false;
 }
 else{
   if ( username == "" || password == ""){
-    alert("You must type in a username and password to log in!");
+  document.getElementById("errorText").innerHTML = "You must type in a username and password to log in!";
   }
   else{
-  alert("Incorrect username or password, please retry.");
+  document.getElementById("errorText").innerHTML = "Incorrect username or password, please retry.";
   return false;
 }
 }
