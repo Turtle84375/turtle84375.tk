@@ -19,11 +19,13 @@
 
     // This next line will just add it to the <body> tag
     document.body.appendChild(img);
+    
+    document.getElementById('lolButton').style.visibility = 'hidden';
   }
   </script>
 </head>
 <body>
-  <button onclick="show_image('assets/200w.gif',  300,   250, 'lol'); play();">Click Me :)</button> 
+  <button id="lolButton" onclick="show_image('assets/200w.gif',  300,   250, 'lol'); play();">Click Me :)</button> 
 </body>
 </html>
 
