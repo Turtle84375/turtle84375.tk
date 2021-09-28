@@ -1,7 +1,7 @@
 function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
-if ( username.toLowerCase == "username" && password == "1234" ){/*Will make more secure later*/
+if ( username.toLowerCase() == "username" && password == "1234" ){/*Will make more secure later*/
 document.cookie = "authorized=true";
 window.location = "https://turtle84375.tk/dashboard";
 return false;
