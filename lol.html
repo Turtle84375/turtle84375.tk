@@ -5,12 +5,24 @@
   <link rel="icon" 
       type="image/gif" 
       href="assets/200w.gif">
-  <audio id="lol" loop src="assets/200w.mp3" autoplay></audio>	
+  <script>
+  function play() {
+  var audio = new Audio('assets/200w.mp3');
+  audio.play();
+  }
+  function show_image(src, width, height, alt) {
+    var img = document.createElement("img");
+    img.src = src;
+    img.width = width;
+    img.height = height;
+    img.alt = alt;
+    // This next line will just add it to the <body> tag
+    document.body.appendChild(img);
+  }
+  </script>
 </head>
-<script>
-  lol.play();
-</script>
 <body>
-  <h1>text</h1>
+  <button onclick="play(); "show_image('assets/200w.gif', 276, 110, 'lol');">Click Me :)</button>
+  <img
 </body>
 </html>
