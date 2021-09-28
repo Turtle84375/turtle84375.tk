@@ -7,7 +7,7 @@ window.location = "https://turtle84375.tk/dashboard";
 return false;
 }
 else{
-  if ( username = "" || password == ""){
+  if ( username == "" || password == ""){
   document.getElementById("errorText").innerHTML = "You must type in a username and password to log in!";
   }
   else{
