@@ -8,7 +8,6 @@
   <script>
   function play() {
   var audio = new Audio('assets/200w.mp3');
-  audio.pause();
   audio.play();
   }
   function show_image(src, width, height, alt) {
@@ -27,3 +26,5 @@
   <button onclick="show_image('assets/200w.gif',  300,   250, 'lol'); play();">Click Me :)</button> 
 </body>
 </html>
+
+/* I AM aware of the audio overlap issue, but I'm not going to fix it because I think it's funny lol */
