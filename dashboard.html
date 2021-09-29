@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Admin - Turtle84375</title>
+    <title>Dashboard - Turtle84375</title>
     <link rel="icon" 
       type="image/ico" 
       href="assets/favicon.ico">
@@ -9,6 +9,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="css/style.css">
     <script>
+      document.getElementById('adminButton').style.visibility = 'hidden';
       var x = document.cookie;
       if (x != "authorized=true") {
         window.location.replace("https://turtle84375.tk/login");
@@ -24,8 +25,8 @@
         <h1>Dashboard</h1>
         <h3>Your Account</h3>
         <p>Lol there's nothing here yet :P</p>
-        <button id="adminButton" style="visibility:hidden" onclick="location.href=('admin.html')">Admin</button>
-        <button onclick="location.href=('logout.html')">Logout</button>
+        <div><button onclick="location.href=('logout')">Logout</button></div>
+        <div><button id="adminButton" onclick="location.href=('admin')">Admin</button></div>
     </div>
     </div>
   </center>
