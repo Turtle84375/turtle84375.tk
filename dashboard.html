@@ -12,6 +12,8 @@
       var x = document.cookie;
       if (x != "authorized=true") {
         window.location.replace("https://turtle84375.tk/login");
+      } else {
+      document.getElementById('adminButton').style.visibility = 'visible';
       };
     </script>
 </head>
@@ -22,6 +24,7 @@
         <h1>Dashboard</h1>
         <h3>Your Account</h3>
         <p>Lol there's nothing here yet :P</p>
+        <button id="adminButton" style="visibility:hidden" onclick="location.href=('admin.html')">Admin</button>
         <button onclick="location.href=('logout.html')">Logout</button>
     </div>
     </div>
