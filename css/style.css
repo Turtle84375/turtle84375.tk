@@ -9,7 +9,7 @@ input {
     -webkit-backdrop-filter: blur(10px);
 }
 button {
-    background: rgba(255, 255, 255, 0.644);
+    background: #d0cfcf;
     box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
