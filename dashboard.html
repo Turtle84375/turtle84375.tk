@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dashboard - Turtle84375</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/ico" href="assets/favicon.ico">
+    <title>Admin - Turtle84375</title>
+    <link rel="icon" 
+      type="image/ico" 
+      href="assets/favicon.ico">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/style.css">
     <script>
-      window.location.replace("https://turtle84375.tk/admin");
+      var x = document.cookie;
+      if (x != "authorized=true") {
+        window.location.replace("https://turtle84375.tk/login");
+      };
     </script>
 </head>
 <body>
-  <p>Redirecting...</p>
+  <center>
+    <div class="container">
+    <div class="main">
+        <h1>Dashboard</h1>
+        <h3>Your Account</h3>
+        <p>Lol there's nothing here yet :P</p>
+        <button onclick="location.href=('logout.html')">Logout</button>
+    </div>
+    </div>
+  </center>
 </body>
 </html>
