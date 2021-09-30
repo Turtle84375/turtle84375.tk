@@ -6,23 +6,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/cookies.js"></script>
-    <script>
-      if(window.attachEvent) {
-        window.attachEvent('onload', checkIfAdmin);
-        } else {
-        if(window.onload) {
-          var curronload = window.onload;
-          var newonload = function(evt) {
-            curronload(evt);
-            checkIfAdmin(evt);
-        };
-        window.onload = newonload;
-        } else {
-        window.onload = checkIfAdmin;
-        }
-      }
-    </script>
+    <script src="js/cookies/checkifadmin.js"></script>
 </head>
 <body>
   <center>
