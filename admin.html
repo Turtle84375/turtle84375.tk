@@ -8,13 +8,13 @@
   <link rel="stylesheet" href="css/style.css">
   <script>
     var x = document.cookie;
-    if (x.includes("banned=true")) {
+    if (x.includes("banned?true")) {
     window.location.replace("https://turtle84375.tk/banned");
     } else {
-      if (!x.includes("authorized=true")) {
+      if (!x.includes("authorized?true")) {
       window.location.replace("https://turtle84375.tk/login");
       } else {
-      if (!x.includes("admin=true")) {
+      if (!x.includes("admin?true")) {
         window.location.replace("https://turtle84375.tk/access_denied");
       }
       }
