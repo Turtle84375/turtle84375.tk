@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/cookies.js"></script>
     <script>
-      window.onload = function checkIfAdmin();
+      document.addEventListener('readystatechange', () => {    
+      if (document.readyState == 'complete') checkIfAdmin();
+    });
     </script>
 </head>
 <body>
