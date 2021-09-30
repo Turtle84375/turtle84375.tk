@@ -4,7 +4,7 @@ var password = document.getElementById("password").value;
 if ( username.toLowerCase() == "username" && password == "1234" ){/*Will make more secure later*/
 document.cookie = "authorized=true";
 document.cookie = "admin=true";
-document.cookie = "banned=true";
+document.cookie = "banned=false";
 window.location = "https://turtle84375.tk/dashboard";
 return false;
 }
