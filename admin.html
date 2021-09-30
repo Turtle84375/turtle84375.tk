@@ -10,7 +10,7 @@
       <link rel="stylesheet" href="css/style.css">
     <script>
       var x = document.cookie;
-      if (x != "authorized=true") {
+      if (x.includes("authorized=true")) {
         window.location.replace("https://turtle84375.tk/access_denied");
       };
     </script>
