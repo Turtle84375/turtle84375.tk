@@ -7,12 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <script>
-    window.onload = function checkIfAdmin() {
+    function checkIfAdmin() {
       var x = document.cookie;
       if (!x.includes("admin=true")) {
         window.location.replace("https://turtle84375.tk/access_denied");
         return;
       }
+    };
+    
+    if (window.addEventListener) {
+      window.addEventListener("load", checkIfAdmin, false);
+    } else if (window.attachEvent) {
+      window.attachEvent("onload", checkIfAdmin);
+    } else {
+      window.onload = checkIfAdmin; //will override previously attached event listeners.
     };
   </script>
 </head>
