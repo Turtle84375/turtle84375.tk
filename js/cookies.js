@@ -20,3 +20,24 @@ function getCookie(cname) {
   }
   return "";
 }
+
+function checkIfLoggedIn() {
+  var x = document.cookie;
+  if (!x.includes("authorized=true")) {
+    window.location.replace("https://turtle84375.tk/login");
+  return;
+};
+
+function checkIfAdmin() {
+  var x = document.cookie;
+  if (!x.includes("admin=true")) {
+    window.location.replace("https://turtle84375.tk/access_denied");
+  return;
+};
+  
+function checkIfBanned() {
+  var x = document.cookie;
+  if (x.includes("banned=true")) {
+    window.location.replace("https://turtle84375.tk/banned");
+  return;
+};
