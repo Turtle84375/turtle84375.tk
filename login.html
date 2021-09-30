@@ -9,7 +9,7 @@
     <script src="js/login.js"></script>
     <script>
       var x = document.cookie;
-      if (x == "authorized=true") {
+      if (x.includes("authorized?true")) {
       window.location.replace("https://turtle84375.tk/dashboard");
     };
     </script>
