@@ -2,9 +2,7 @@ function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username.toLowerCase() == "username" && password == "1234" ){/*Will make more secure later*/
-document.cookie = "authorized=true";
-document.cookie = "admin=true";
-document.cookie = "banned=false";
+document.cookie = "session=authorized?true, admin?true, banned?false";
 window.location = "https://turtle84375.tk/dashboard";
 return false;
 }
