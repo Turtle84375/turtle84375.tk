@@ -1,6 +1,5 @@
 body {
-    background-image: linear-gradient(rgb(0, 183, 255) 0%, white 45%);
-    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
 }
 input {
     background: rgba(255, 255, 255, 0.541);
@@ -30,7 +29,7 @@ button {
 }
 .navbar-dropdown-style {
     border-radius: 15px;
-    background: rgba(255, 255, 255, 0.281);
+    background: rgb(255, 255, 255);
     box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.11);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
