@@ -43,6 +43,9 @@
   </center>
   <script>
     document.getElementById("usernameText").innerHTML = cleanUsername;
+    if (x.includes("admin?true")) {
+    document.getElementById(adminButton).style.visibility = "visible";
+    };
   </script>
 </body>
 </html>
