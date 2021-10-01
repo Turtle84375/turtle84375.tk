@@ -16,7 +16,7 @@
       }
       };
     
-    const cookieArr = x.split(",");
+    const cookieArr = x.split(";");
       
     var cookieUsername;
     
@@ -24,7 +24,7 @@
     document.getElementById("usernameText").innerHTML = "[Error, please log out and log in again]";
     } else {
       while (!cookieUsername.includes("id=")) {
-        if (!cookieArr[0].includes("id")) {
+        if (!cookieArr[0].includes("id=")) {
           cookieArr.reverse();
           cookieArr.pop();
         } else {
