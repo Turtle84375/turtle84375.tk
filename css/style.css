@@ -14,3 +14,32 @@ button {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
+.text-style {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button {
+    text-align: center;
+    font-size: 20px;
+}
+.navbar-style {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.navbar-dropdown-style {
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.281);
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.11);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.dropdown-item {
+    background: rgba(255, 255, 255, 0);
+}
+.dropdown-item:hover {
+    background: rgba(255, 255, 255, 0.76);
+}
+.navbar-burger-thing {
+    border-radius: 15px;
+}
