@@ -83,66 +83,31 @@
     width: 100%;
     height: 100%;
 }
-@media (max-width: 575.98px) {
+  @media (prefers-color-scheme: dark) {
     body {
-        margin: 0px;
+      background-color: black;
+      color: rgb(255, 255, 255);
     }
-    .navbar-style {
-        border-radius: 0px;
-    }
-    .h1-style {
-        font-size: 50px;
-    }
-    .center-mobile {
-        text-align: center;
-    }
-    .show-on-mobile {
-        display: unset;
-    }
-    .hide-on-mobile {
-        display: none;
-    }
-}
-@media (min-width: 575.98px) and (max-width: 10000px){
-    body {
-        margin: 50px;
-    }
-    .navbar-style {
-        border-radius: 25px;
-    }
-    .h1-style {
-        font-size: 100px;
-    }
-    .center-mobile {
-        text-align: unset;
-    }
-    .show-on-mobile {
-        display: none;
-    }
-    .hide-on-mobile {
-        display: unset;
-    }
-}
-@media (prefers-color-scheme: dark) {
-  .card {
-    color: white;
-    background-color: rgb(46, 46, 46);
   }
-  .theme-color {
-          color: rgb(255, 255, 255);
-          background-color: rgb(46, 46, 46);
-        }
-}
-@media (prefers-color-scheme: light) {
-    .card {
-      color: rgb(0, 0, 0);
-      background-color: rgb(255, 255, 255);
+
+  @media (prefers-color-scheme: light) {
+    body {
+      background-image: linear-gradient(rgb(0, 183, 255) 0%, white 45%);
+      background-repeat: no-repeat;
     }
-    .theme-color {
-        color: rgb(0, 0, 0);
-        background-color: rgb(255, 255, 255);
-      }
-}
+  }
+
+  @media (max-width: 575.98px) {
+    .please-no-corners-mobile {
+      border-radius: 0px;
+    }
+  }
+
+  @media (min-width: 575.98px) and (max-width: 10000px) {
+    .please-no-corners-mobile {
+      border-radius: 25px;
+    }
+  }
   </style>
 </head>
 <body>
