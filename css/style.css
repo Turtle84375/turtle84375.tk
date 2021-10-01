@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(0, 183, 255) 0%, white 45%);
+    background-repeat: no-repeat;
 }
 input {
     background: rgba(255, 255, 255, 0.541);
