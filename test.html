@@ -5,12 +5,78 @@
   <link rel="icon" type="image/ico" href="assets/favicon.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-    <script>
+  <style>
+    .navbar-style {
+    background: rgba(255, 255, 255, 0.541);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    }
+.navbar-dropdown-style {
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.281);
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.11);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.dropdown-item {
+    background: rgba(255, 255, 255, 0);
+}
+.dropdown-item:hover {
+    background: rgba(255, 255, 255, 0.76);
+}
+.navbar-burger-thing {
+    border-radius: 15px;
+}
+  </style>
+  <script>
     alert(document.cookie);
     </script>
 </head>
 <body>
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-style">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="media/nav-icon.png" alt="GabrielF11" width="30" height="30">
+        </a>
+        <button class="navbar-toggler navbar-burger-thing" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <!-- Navbar Items -->
+            <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link" href="https://gabrielf11.medium.com/">Blog</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Fun
+              </a>
+              <ul class="dropdown-menu navbar-dropdown-style" aria-labelledby="navbarDropdownMenuLink">
+                <!-- Fun dropdown menu -->
+                <li><a class="dropdown-item" href="e.html" style="border-top-left-radius: 5px; border-top-right-radius: 5px;">E Page</a></li>
+                <li><a class="dropdown-item" href="lol.html">Lol</a></li>
+                <li><a class="dropdown-item" href="im-bored.html" style="border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">I'm bored</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                More
+              </a>
+              <ul class="dropdown-menu navbar-dropdown-style" aria-labelledby="navbarDropdownMenuLink">
+                <!-- More dropdown menu -->
+                <li><a class="dropdown-item" href="qna.html" style="border-top-left-radius: 5px; border-top-right-radius: 5px;">QNA</a></li>
+                <li><a class="dropdown-item" href="privacy.html" style="border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">Privacy</a></li>
+              </ul>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
   <center>
     <div class="container">
     <div class="main">
