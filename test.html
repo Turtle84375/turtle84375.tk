@@ -11,6 +11,20 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="icon" type="image/ico" href="assets/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    var x = document.cookie;
+    if (x.includes("banned?true")) {
+    window.location.replace("https://turtle84375.tk/banned");
+    } else {
+      if (!x.includes("authorized?true")) {
+      window.location.replace("https://turtle84375.tk/login");
+      } else {
+      if (!x.includes("admin?true")) {
+        window.location.replace("https://turtle84375.tk/access_denied");
+      }
+      }
+      };
+  </script>
   <style>
 .text-style {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
