@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
     <script>
+    document.getElementById(adminButton).style.visibility = "visible";
     var x = document.cookie;
     if (x.includes("banned?true")) {
     window.location.replace("https://turtle84375.tk/banned");
@@ -37,7 +38,7 @@
         <h3>Your Account</h3>
         <p id="usernameText">Loading...</p>
         <div><button onclick="location.href=('logout')">Logout</button></div>
-        <div><button id="adminButton" onclick="location.href=('admin')" style="visibility:hidden">Admin</button></div>
+        <div><button id="adminButton" onclick="location.href=('admin')">Admin</button></div>
     </div>
     </div>
   </center>
