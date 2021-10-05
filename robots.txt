@@ -1,2 +1,22 @@
 User-agent: *
 Disallow: /
+
+User-agent: Googlebot
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /js/
+
+User-agent: Bingbot
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /js/
+
+User-agent: DuckDuckBot
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /js/
+
+User-agent: Slurp
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /js/
