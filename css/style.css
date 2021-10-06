@@ -54,3 +54,7 @@ button {
     background: white;
     border-radius: 5px;
 }
+.footer-style {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-color: black;
+}
