@@ -1,0 +1,5 @@
+- name: get file
+  env:
+    TOKEN: ${{ secrets.SECRET_SCRIPTS }}
+  run: |
+    curl -H "Authorization: token ${TOKEN}" https://raw.githubusercontent.com/Turtle84375/private.turtle84375.tk/main/login.js
