@@ -1,5 +1,5 @@
 .heading {
-    background: linear-gradient(-60deg, rgba(35, 226, 203, 0.6) 30%, rgba(35, 172, 226, 0.6) 30%), transparent 0;
+    background: linear-gradient(-60deg, rgba(35, 226, 203, 0.75) 30%, rgba(35, 172, 226, 0.75) 30%), transparent 0;
     background-repeat:no-repeat;
     min-height: 100%;
     min-width: 1024px;
