@@ -1,9 +1,8 @@
 .heading {
-    background: linear-gradient(-60deg, #23e2cb 30%, #23ace2 30%), transparent 0;
+    background: linear-gradient(-60deg, #23e2cb 30%, #23ace2 30%), transparent 0.5;
     background-repeat:no-repeat;
     min-height: 100%;
     min-width: 1024px;
-    opacity: 0.5;
   
     width: 100%;
     height: auto;
