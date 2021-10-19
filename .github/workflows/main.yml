@@ -1,9 +1,1 @@
-- name: Secret Injector
-  # You may pin to the exact commit or the version.
-  # uses: Inrixia/Secret-Injector@2a216bf2663c28a223d3500651e420f28f924402
-  uses: Inrixia/Secret-Injector@v1
-  with:
-    # Workflow secrets
-    secrets: # optional, default is undefined
-    # Workflow env
-    env: # optional, default is undefined
+
