@@ -66,6 +66,9 @@ button {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
+h1.fpage {
+    padding: 10px 10px 10px 10px;
+}
 .login-box {
     background: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
