@@ -68,7 +68,8 @@ button {
     background: white;
     border-radius: 5px;
     box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
-    max-width: 50%;
+    min-width: 40%;
+    max-width: 40%;
 }
 .footer-style {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
