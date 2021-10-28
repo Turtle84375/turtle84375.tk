@@ -3,7 +3,7 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username.toLowerCase() == "turtle84375" && password == "notmyrealpass" ) { /*Will make more secure later*/
 document.cookie = "session=authorized?true, admin?true, banned?false";
-document.cookie = "id=" + username;
+document.cookie = "id=Turtle84375;
 window.location = "https://turtle84375.tk/dashboard";
 return false;
 } else if ( username.toLowerCase() == "username" && password == "1234" ) {
