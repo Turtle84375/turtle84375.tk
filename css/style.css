@@ -64,12 +64,18 @@ button {
     border-radius: 5px;
     box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
 }
-.container {
+.login-box {
     background: white;
     border-radius: 5px;
     box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
     min-width: 35%;
     max-width: 35%;
+}
+.container {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    min-width: 100%;
 }
 .footer-style {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
