@@ -66,7 +66,7 @@ button {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
-h1.fpage {
+.fpage-t {
     padding: 10px 10px 10px 10px;
 }
 .login-box {
