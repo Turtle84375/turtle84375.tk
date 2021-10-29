@@ -24,7 +24,7 @@ input {
     -webkit-backdrop-filter: blur(10px);
 }
 button {
-    background: #d0cfcf;
+    background: rgba(208, 207, 207, 0.8);
     box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
