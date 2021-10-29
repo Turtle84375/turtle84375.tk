@@ -1,5 +1,4 @@
 function loginLogoutText() {
-  var loginDynamicURL;
   var x = document.cookie;
   if (x.includes("authorized?true")) {
     document.getElementById("loginDynamic").href="dashboard";
