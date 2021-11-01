@@ -7,7 +7,9 @@ function loginLogoutText() {
 }
 function devView() {
   var pageHtml = document.documentElement.outerHTML;
+  var pageName = document.title;
   localStorage.devViewStorage = pageHtml;
+  localStorage.devViewNameStorage = pageName;
   window.location.replace("https://turtle84375.tk/dev");
 }
 function clearDevView() {
