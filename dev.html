@@ -11,12 +11,12 @@
   <center>
     <div class="container">
       <h1><u>Dev View (beta)</u></h1>
-      <p id="devViewPanel">No page was selected, please go to the page you would like to view and click the "Dev View" button.</p>
+      <textarea id="devViewPanel">No page was selected, please go to the page you would like to view and click the "Dev View" button.</textarea>
       <br><button onclick="location.href=('/')">Back</button>
     </div>
   </center>
   <script>
-    document.getElementById("devViewPanel").innerHTML = pageHtml;
+    document.getElementById("devViewPanel").innerHTML = localStorage.getItem("devViewStorage");
   </script>
 </body>
 <footer class="footer-style" style="text-align: center;">
