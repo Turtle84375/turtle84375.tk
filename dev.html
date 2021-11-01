@@ -16,7 +16,9 @@
     </div>
   </center>
   <script>
-    document.getElementById("devViewPanel").innerHTML = localStorage.getItem("devViewStorage");
+    if (!localStorage.getItem("devViewStorage")=="") {
+      document.getElementById("devViewPanel").innerHTML = localStorage.getItem("devViewStorage");
+    }
   </script>
 </body>
 <footer class="footer-style" style="text-align: center;">
