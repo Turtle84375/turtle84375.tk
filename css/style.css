@@ -106,4 +106,5 @@ button {
     bottom: 15px;
     right: 15px;
     float: right;
+    margin: 0;
 }
