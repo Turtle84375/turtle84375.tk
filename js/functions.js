@@ -8,6 +8,6 @@ function loginLogoutText() {
 
 function devView() {
   var pageHtml = document.documentElement.outerHTML;
-  document.getElementById("dev-view-panel").innerHTML = pageHtml;
   window.location.replace("https://turtle84375.tk/dev");
+  document.getElementById("dev-view-panel").innerHTML = pageHtml;
 }
