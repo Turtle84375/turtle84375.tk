@@ -13,3 +13,4 @@ function devView() {
 function clearDevView() {
   localStorage.removeItem("devViewStorage");
   window.location.reload();
+}
