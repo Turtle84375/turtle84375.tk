@@ -108,5 +108,5 @@ button {
     float: right;
 }
 .dev-view-panel {
-    height: 1000px;
+    overflow: visible;
 }
