@@ -107,3 +107,7 @@ button {
     right: 15px;
     float: right;
 }
+.dev-view-panel {
+    min-height: 50px;
+    height: auto;
+}
