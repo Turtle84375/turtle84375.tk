@@ -107,7 +107,3 @@ button {
     right: 15px;
     float: right;
 }
-#devViewPanel {
-    min-height: 100px;
-    height: auto;
-}
