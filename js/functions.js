@@ -5,9 +5,11 @@ function loginLogoutText() {
     document.getElementById("loginDynamic").innerHTML = "Dashboard";
   }
 }
-
 function devView() {
   var pageHtml = document.documentElement.outerHTML;
   localStorage.devViewStorage = pageHtml;
   window.location.replace("https://turtle84375.tk/dev");
 }
+function clearDevView() {
+  localStorage.removeItem("devViewStorage");
+  window.location.reload();
