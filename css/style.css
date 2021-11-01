@@ -101,3 +101,8 @@ button {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
 }
+.dev-view {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
