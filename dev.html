@@ -21,6 +21,9 @@
     if (!localStorage.getItem("devViewStorage")=="") {
       document.getElementById("devViewPanel").innerHTML = localStorage.getItem("devViewStorage");
     }
+    if (!localStorage.getItem("devViewNameStorage")=="") {
+      document.getElementById("devViewPName").innerHTML = "Currently viewing " + localStorage.getItem("devViewNameStorage") + ".";
+    }
   </script>
 </body>
 <footer class="footer-style" style="text-align: center;">
