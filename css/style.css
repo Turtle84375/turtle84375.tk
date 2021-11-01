@@ -102,7 +102,7 @@ button {
     color: white;
 }
 .dev-view {
-    position: absolute;
+    position: sticky;
     bottom: 15px;
     right: 15px;
 }
