@@ -5,3 +5,9 @@ function loginLogoutText() {
     document.getElementById("loginDynamic").innerHTML = "Dashboard";
   }
 }
+
+function devView() {
+  var pageHtml = document.documentElement.outerHTML;
+  document.getElementById("dev-view-panel").innerHTML = pageHtml;
+  window.location.replace("https://turtle84375.tk/dev");
+}
