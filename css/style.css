@@ -108,4 +108,5 @@ button {
     float: right;
     width: 120px;
     height: 35px;
+    font-size: 10px !important;
 }
