@@ -119,3 +119,6 @@ button {
     height: 55px;
     margin: -158px;
 }
+.dev-img:hover {
+    cursor:pointer;
+}
