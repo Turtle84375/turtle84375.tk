@@ -109,6 +109,7 @@ button {
     width: 35px;
     height: 55px;
     margin: -160px;
+    background: rgba(255, 255, 255, 0);
 }
 .dev-img {
     position: sticky;
