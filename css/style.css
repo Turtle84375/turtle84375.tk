@@ -109,4 +109,5 @@ button {
     width: 35px;
     height: 55px;
     margin: -160px;
+    background: rgba(168, 168, 168, 0) !important;
 }
