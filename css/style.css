@@ -101,7 +101,7 @@ button {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
 }
-.dev-view {
+.dev-view:before {
     position: sticky;
     bottom: 15px;
     right: 15px;
@@ -109,7 +109,6 @@ button {
     width: 35px;
     height: 55px;
     margin: -160px;
-    background: rgba(255, 255, 255, 0);
 }
 .dev-img {
     position: sticky;
