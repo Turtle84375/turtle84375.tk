@@ -112,10 +112,10 @@ button {
 }
 .dev-img {
     position: sticky;
-    bottom: 16px;
+    bottom: 20px;
     right: 15px;
     float: right;
     width: 55px;
     height: 55px;
-    margin: -159px;
+    margin: -155px;
 }
